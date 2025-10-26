@@ -37,3 +37,12 @@ fname = "ramesh         "
 fname = fname.strip()  #this functin will simply remove all spaces before and after string 
 lname = "kumar"
 print(fname + " " + lname)
+
+#replace
+item = "chair"
+print(item.replace("c","k"))
+print(item.replace("r","oo"))
+
+#split
+message = "hi, this is ramesh, and i am a developer"
+print(message.split(","))
